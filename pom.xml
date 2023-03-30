@@ -119,7 +119,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>${maven-jar-plugin.version}</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -140,4 +139,17 @@
             <version>${nanoboot-checks.version}</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>nanoboot-releases-repository</id>
+            <url>https://maven.nanoboot.org/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>nanoboot-snapshots-repository</id>
+            <url>https://maven.nanoboot.org/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+    
 </project>
