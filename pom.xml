@@ -58,6 +58,7 @@
         <build-helper-maven-plugin.version>3.4.0</build-helper-maven-plugin.version>
         <flyway-core.version>8.5.13</flyway-core.version>
         <mockito-inline.version>4.11.0</mockito-inline.version>
+        <gpg.skip>true</gpg.skip>
     </properties>
 
     <reporting>
