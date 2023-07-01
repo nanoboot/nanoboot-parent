@@ -24,7 +24,7 @@
 
     <groupId>org.nanoboot.essential</groupId>
     <artifactId>nanoboot-parent</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
     <packaging>pom</packaging>
 
     <name>Nanoboot Parent</name>
@@ -37,7 +37,7 @@
         <checkstyle-config-location-path>nanoboot_checks.xml</checkstyle-config-location-path>
         <checkstyle-config-location>${checkstyle-config-location-path}</checkstyle-config-location>
         <javase.version>19</javase.version>
-        <nanoboot-checks.version>0.1.0-SNAPSHOT</nanoboot-checks.version>
+        <nanoboot-checks.version>0.1.0</nanoboot-checks.version>
         <!-- space -->
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
