@@ -52,6 +52,7 @@
         <junit5.vintage.version>5.9.3</junit5.vintage.version>
         <junit4.version>4.13.2</junit4.version>
         <jacoco-maven-plugin.version>0.8.10</jacoco-maven-plugin.version>
+        <jsoup.version>1.16.1</jsoup.version>
         <mockito-core.version>3.12.4</mockito-core.version>
         <sqlite-jdbc.version>3.42.0.0</sqlite-jdbc.version>
         <log4j.version>2.20.0</log4j.version>
