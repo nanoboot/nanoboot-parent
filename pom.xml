@@ -24,7 +24,7 @@
 
     <groupId>org.nanoboot.essential</groupId>
     <artifactId>nanoboot-parent</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Nanoboot Parent</name>
