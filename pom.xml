@@ -47,6 +47,7 @@
         <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
         <maven-source-plugin>3.3.0</maven-source-plugin>
         <maven-gpg-plugin>3.1.0</maven-gpg-plugin>
+        <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
         <lombok.version>1.18.30</lombok.version>
         <junit-jupiter.version>5.10.0</junit-jupiter.version>
         <junit5.vintage.version>5.10.0</junit5.vintage.version>
@@ -59,6 +60,7 @@
         <build-helper-maven-plugin.version>3.4.0</build-helper-maven-plugin.version>
         <flyway-core.version>8.5.13</flyway-core.version>
         <mockito-inline.version>4.11.0</mockito-inline.version>
+        <springframework.version>6.0.12</springframework.version>
         <gpg.skip>true</gpg.skip>
     </properties>
 
