@@ -6,7 +6,7 @@ Requirements:
 
 Maven is Installed
 
-Java 21 is installed - variable JAVA_HOME_21 is set
+Java 21 is installed - variable JAVA_21_HOME is set
 
 */
 {
@@ -25,7 +25,14 @@ Java 21 is installed - variable JAVA_HOME_21 is set
     		        #!/bin/bash
     		        echo JOB_NAME=$JOB_NAME
 
-                        export JAVA_HOME=$JAVA_HOME_21
+    		        if [ -z "$JAVA_21_HOME" ]
+                        then
+                              echo "KO : Variable JAVA_21_HOME is empty. You fix this issue by adding this variable to configuration of Jenkins."
+                              exit 1
+                        else
+                              echo "OK : Variable JAVA_21_HOME is NOT empty"
+                        fi
+                        export JAVA_HOME=$JAVA_21_HOME
                         case $BRANCH_NAME in
 
     		          master | deploy_prod)
