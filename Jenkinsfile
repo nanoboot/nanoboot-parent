@@ -6,7 +6,7 @@ Requirements:
 
 Maven is Installed
 
-Java 21 is installed
+Java 21 is installed - variable JAVA_HOME_21 is set
 
 */
 {
