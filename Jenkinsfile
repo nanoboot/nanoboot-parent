@@ -6,7 +6,7 @@ Requirements:
 
 Maven is Installed
 
-Java 19 is installed
+Java 21 is installed
 
 */
 {
@@ -25,6 +25,7 @@ Java 19 is installed
     		        #!/bin/bash
     		        echo JOB_NAME=$JOB_NAME
 
+                        export JAVA_HOME=$JAVA_HOME_21
                         case $BRANCH_NAME in
 
     		          master | deploy_prod)
