@@ -37,7 +37,7 @@
         <checkstyle-config-location-path>nanoboot_checks.xml</checkstyle-config-location-path>
         <checkstyle-config-location>${checkstyle-config-location-path}</checkstyle-config-location>
         <javase.version>21</javase.version>
-        <nanoboot-checks.version>0.1.0</nanoboot-checks.version>
+        <nanoboot-javaformat-checkstyle.version>0.1.1-SNAPSHOT</nanoboot-javaformat-checkstyle.version>
         <!-- space -->
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
@@ -117,8 +117,8 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.nanoboot.essential</groupId>
-                        <artifactId>nanoboot-checks</artifactId>
-                        <version>${nanoboot-checks.version}</version>
+                        <artifactId>nanoboot-javaformat-checkstyle</artifactId>
+                        <version>${nanoboot-javaformat-checkstyle.version}</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -181,8 +181,8 @@
     <dependencies>                    
         <dependency>
             <groupId>org.nanoboot.essential</groupId>
-            <artifactId>nanoboot-checks</artifactId>
-            <version>${nanoboot-checks.version}</version>
+            <artifactId>nanoboot-javaformat-checkstyle</artifactId>
+            <version>${nanoboot-javaformat-checkstyle.version}</version>
         </dependency>
     </dependencies>
 
